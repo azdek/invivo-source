@@ -1,0 +1,23 @@
+footer {
+  width: 90%;
+  max-width: $max-width;
+  margin: 0 auto;
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      margin: 0 6px;
+    }
+    & > div {
+      position: relative;
+    }
+  }
+
+  .copyright {
+    margin: 15px auto 8px;
+    font-size: 8px;
+    text-align: center;
+  }
+}

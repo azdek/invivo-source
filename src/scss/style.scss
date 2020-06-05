@@ -1,0 +1,52 @@
+$font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans",
+  "Helvetica Neue", sans-serif;
+
+@import "reset.scss";
+
+@import "variables.scss";
+@import "nice-select.scss";
+
+@import "header.scss";
+@import "filter.scss";
+@import "slider.scss";
+@import "about.scss";
+@import "video.scss";
+@import "map.scss";
+@import "message.scss";
+@import "footer.scss";
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+html,
+body {
+  font-family: $font-stack;
+  color: $main-c;
+  font-size: 10px;
+}
+
+h3.title {
+  max-width: $max-width;
+  font-size: 30px;
+  margin: 30px auto 20px;
+  text-align: center;
+  color: $main-c;
+}
+
+h4 {
+  max-width: $max-width;
+  font-size: 20px;
+  margin: 30px auto 20px;
+  text-align: center;
+}

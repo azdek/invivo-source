@@ -1,0 +1,30 @@
+.about {
+  max-width: $max-width;
+  width: 90%;
+  margin: 0 auto;
+  color: $main-c;
+  .text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+  }
+
+  .count {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    &__item {
+      text-align: center;
+      flex: 1;
+      div {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      span {
+        font-size: 10px;
+        line-height: 14px;
+      }
+    }
+  }
+}
