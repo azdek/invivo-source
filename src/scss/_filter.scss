@@ -124,4 +124,18 @@
       }
     }
   }
+
+  .menu {
+    width: 280px;
+    background-color: #fff;
+    box-shadow: $secondary-shadow;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto 0;
+    transform: translateY(-20px);
+    z-index: 100;
+    .dropdown__arrow{
+      transform: rotate(-90deg);
+    }
+  }
 }
